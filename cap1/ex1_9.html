@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcula preço do jantar</title>
+</head>
+<body>
+  
+  <script>
+
+    // lê o valor do jantar
+    var jantar = Number(prompt('Informe o valor do jantar: '));
+
+    // calcula a porcentagem do graçom
+    var garcom = jantar * 0.10;
+
+    var total = jantar + garcom;
+
+    // apresenta as respostas
+    alert('Taxa do garçom R$: ' + garcom.toFixed(2) + "\n Total R$: " + total.toFixed(2));
+
+
+  </script>
+
+</body>
+</html>
