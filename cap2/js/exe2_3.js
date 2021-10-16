@@ -22,7 +22,7 @@ function mostrarPromocao() {
 }
 
 // cria uma referência ao botão btnVerPromocao
-var btnVerPromocao = document.getElementById('btnVerPromocao');
+var btnCalcularPreco = document.getElementById('btnCalcularPreco');
 
 // registra um evento assosiação ao botão, para carregar uma função.
 btnVerPromocao.addEventListener('click', mostrarPromocao);
